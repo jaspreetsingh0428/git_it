@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+</head>
+<body>
+	<form>
+		<div >
+			<label for="username">USERNAME</label>
+			<input type="range" min="10" max="100" step="10" id="username" required="hanji" value="cherry">
+		</div>
+
+		<div>
+			<label for="password">PASSWORD</label>
+			<input type="password">
+		</div>
+		<div>
+			<label for="county">Country</label>
+			<input type="country" name="country" id="county" name="country" value="India" disabled>
+		</div>
+
+		<div>
+			<br>
+			<input type="submit">
+		</div>		
+	</form>
+
+	<p title="hower">testing</p>
+</body>
+</html>
